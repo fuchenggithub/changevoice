@@ -62,18 +62,18 @@
 ## 本地开发
 
 1. 克隆项目：
-\`\`\`bash
-git clone [项目地址]
-\`\`\`
+```bash
+git clone https://github.com/fuchenggithub/changevoice.git
+```
 
 2. 使用 HTTP 服务器运行项目：
-\`\`\`bash
+```bash
 # 使用 Python 的简单 HTTP 服务器
 python -m http.server 8000
 
 # 或使用 Node.js 的 http-server
 npx http-server
-\`\`\`
+```
 
 3. 在浏览器中访问 `http://localhost:8000`
 
@@ -82,4 +82,4 @@ npx http-server
 - 首次使用需要授予麦克风权限
 - 建议在安静的环境中使用
 - 语音识别准确度可能受环境噪音影响
-- 移动端使用时注意网络状态 
+- 移动端使用时注意网络状态
